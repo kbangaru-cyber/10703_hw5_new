@@ -1,0 +1,16 @@
+2025-10-27 21:35:09 run.py     INFO    : ### Q1.1.1: CEM (without MPC)
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/spaces/box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/spaces/box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+2025-10-27 21:35:09 run.py     INFO    : Test episode 0
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+2025-10-27 21:35:13 run.py     INFO    : Test episode 9
+slurmstepd: error: *** JOB 5614127 ON babel-u5-28 CANCELLED AT 2025-10-27T21:35:15 ***

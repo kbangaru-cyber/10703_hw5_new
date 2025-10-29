@@ -1,0 +1,174 @@
+2025-10-27 21:12:34 run.py     INFO    : ### Q1.1.1: CEM (without MPC)
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/spaces/box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/spaces/box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+2025-10-27 21:12:34 run.py     INFO    : Test episode 0
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+2025-10-27 21:12:41 run.py     INFO    : Test episode 9
+2025-10-27 21:12:47 run.py     INFO    : Test episode 19
+2025-10-27 21:12:54 run.py     INFO    : Test episode 29
+2025-10-27 21:13:00 run.py     INFO    : Test episode 39
+2025-10-27 21:13:07 run.py     INFO    : Test episode 49
+2025-10-27 21:13:08 run.py     INFO    : CEM PushingEnv: avg_reward: -17.54, avg_success: 0.8
+2025-10-27 21:13:08 run.py     INFO    : ### Q1.1.2: Random Policy (without MPC)
+2025-10-27 21:13:08 run.py     INFO    : Test episode 0
+2025-10-27 21:13:22 run.py     INFO    : Test episode 9
+2025-10-27 21:13:39 run.py     INFO    : Test episode 19
+2025-10-27 21:13:55 run.py     INFO    : Test episode 29
+2025-10-27 21:14:11 run.py     INFO    : Test episode 39
+2025-10-27 21:14:28 run.py     INFO    : Test episode 49
+2025-10-27 21:14:29 run.py     INFO    : Random PushingEnv: avg_reward: -35.26, avg_success: 0.6
+2025-10-27 21:14:29 run.py     INFO    : ### Q1.1.2: Random Policy + MPC
+2025-10-27 21:14:29 run.py     INFO    : Test episode 0
+2025-10-27 21:14:52 run.py     INFO    : Test episode 9
+2025-10-27 21:15:23 run.py     INFO    : Test episode 19
+2025-10-27 21:15:51 run.py     INFO    : Test episode 29
+2025-10-27 21:16:23 run.py     INFO    : Test episode 39
+2025-10-27 21:16:55 run.py     INFO    : Test episode 49
+2025-10-27 21:16:58 run.py     INFO    : Random + MPC PushingEnv: avg_reward: -13.04, avg_success: 0.94
+2025-10-27 21:16:58 run.py     INFO    : ### Q1.1.3:
+2025-10-27 21:16:58 run.py     INFO    : Test episode 0
+2025-10-27 21:17:04 run.py     INFO    : Test episode 9
+2025-10-27 21:17:12 run.py     INFO    : Test episode 19
+2025-10-27 21:17:18 run.py     INFO    : Test episode 29
+2025-10-27 21:17:25 run.py     INFO    : Test episode 39
+2025-10-27 21:17:33 run.py     INFO    : Test episode 49
+2025-10-27 21:17:34 run.py     INFO    : CEM Pushing2D: avg_reward: -19.22, avg_success: 0.76
+2025-10-27 21:17:34 run.py     INFO    : Test episode 0
+2025-10-27 21:17:58 run.py     INFO    : Test episode 9
+2025-10-27 21:18:27 run.py     INFO    : Test episode 19
+2025-10-27 21:18:52 run.py     INFO    : Test episode 29
+2025-10-27 21:19:20 run.py     INFO    : Test episode 39
+2025-10-27 21:19:45 run.py     INFO    : Test episode 49
+2025-10-27 21:19:47 run.py     INFO    : CEM + MPC Pushing2D: avg_reward: -11.52, avg_success: 0.94
+2025-10-27 21:19:47 run.py     INFO    : Test episode 0
+2025-10-27 21:19:56 run.py     INFO    : Test episode 9
+2025-10-27 21:20:08 run.py     INFO    : Test episode 19
+2025-10-27 21:20:19 run.py     INFO    : Test episode 29
+2025-10-27 21:20:31 run.py     INFO    : Test episode 39
+2025-10-27 21:20:42 run.py     INFO    : Test episode 49
+2025-10-27 21:20:44 run.py     INFO    : CEM Pushing2DNoisyControl: avg_reward: -25.28, avg_success: 0.64
+2025-10-27 21:20:44 run.py     INFO    : Test episode 0
+2025-10-27 21:21:21 run.py     INFO    : Test episode 9
+2025-10-27 21:21:53 run.py     INFO    : Test episode 19
+2025-10-27 21:22:26 run.py     INFO    : Test episode 29
+2025-10-27 21:23:06 run.py     INFO    : Test episode 39
+2025-10-27 21:23:39 run.py     INFO    : Test episode 49
+2025-10-27 21:23:41 run.py     INFO    : CEM + MPC Pushing2DNoisyControl: avg_reward: -17.6, avg_success: 0.76
+2025-10-27 21:23:41 run.py     INFO    : ### Q1.2.1: Train a single dynamics model f(s, a, phi) using a random policy
+2025-10-27 21:23:42 run.py     INFO    : ### Q1.2.1: Train from 1000 randomly sampled episodes with 100 iterations
+2025-10-27 21:23:42 run.py     INFO    : Warm up episode 0
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+2025-10-27 21:23:42 run.py     INFO    : Warm up episode 99
+2025-10-27 21:23:42 run.py     INFO    : Warm up episode 199
+2025-10-27 21:23:42 run.py     INFO    : Warm up episode 299
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 399
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 499
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 599
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 699
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 799
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 899
+2025-10-27 21:23:43 run.py     INFO    : Warm up episode 999
+2025-10-27 21:23:43 mpc.py     INFO    : Train dynamics model with CEM for 100 iterations
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 font_manager.py WARNING : findfont: Font family 'normal' not found.
+2025-10-27 21:23:44 run.py     INFO    : ### Q1.2.2: Test with Random Policy for 50 episodes
+2025-10-27 21:23:44 run.py     INFO    : Test episode 0
+slurmstepd: error: *** JOB 5613887 ON babel-p5-28 CANCELLED AT 2025-10-27T21:35:08 ***

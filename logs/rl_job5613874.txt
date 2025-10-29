@@ -1,0 +1,22 @@
+python: can't open file '/home/adityaku/HW/10703_HW5_new/run_experiments.py': [Errno 2] No such file or directory
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/spaces/box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/gymnasium/spaces/box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Traceback (most recent call last):
+  File "/home/adityaku/HW/10703_HW5_new/train.py", line 360, in <module>
+    trainer = TrainerTD3(
+              ^^^^^^^^^^^
+  File "/home/adityaku/HW/10703_HW5_new/train.py", line 34, in __init__
+    self.model.load_state_dict(torch.load("model.pt"))
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/torch/serialization.py", line 1484, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/torch/serialization.py", line 759, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adityaku/miniconda3/envs/rl_env/lib/python3.11/site-packages/torch/serialization.py", line 740, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'model.pt'
